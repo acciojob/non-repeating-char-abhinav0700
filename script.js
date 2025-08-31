@@ -1,6 +1,8 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 	let freqs = {}
+	str = str.toLowerCase();
+
 for(let num of str){
     freqs[num] = (freqs[num]||0)+1;
 }
