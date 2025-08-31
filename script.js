@@ -10,7 +10,7 @@ for(let num of str){
     }
 }
 return null;
-}
+
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
